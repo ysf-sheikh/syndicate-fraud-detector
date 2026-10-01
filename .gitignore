@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset
+data/creditcard.csv
+
+# Generated model artifacts
+models/*.pkl
+
+# Generated outputs
+outputs/*.png
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
